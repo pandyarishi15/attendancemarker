@@ -1,0 +1,285 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f1f1f1; /* Light background for a clean look */
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the body content */
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 30px;
+    background-color: #4CAF50; /* Fresh green color for header */
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: #333;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    padding: 100px 20px; /* Adjust the padding if needed */
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box; /* Prevents overflow */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Makes sure it adjusts properly for screen sizes */
+}
+
+.hero h2 {
+    font-size: 3em;
+    color: #333;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.hero .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.hero .button:hover {
+    background-color: #45a049;
+}
+
+
+/* Quotes Section */
+.quotes {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    border-top: 1px solid #ddd;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.quotes h2 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-size: 1.1em;
+    color: #333;
+    margin: 15px 0;
+}
+
+/* Features Section */
+.features {
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.features h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.features .feature-card {
+    display: inline-block;
+    width: 250px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.features .feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.features .feature-card h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.features .feature-card p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Testimonials Section */
+.testimonials {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #333;
+}
+/* Call to Action Section */
+.cta {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #4CAF50;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    max-width: 1100px; /* Keep it within the screen width */
+    margin: 0 auto;
+    box-sizing: border-box; /* Prevent overflow */
+}
+
+.cta h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.cta .button {
+    background-color: #ffffff;
+    color: #4CAF50;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Prevents the button from expanding too wide */
+}
+
+.cta .button:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1em;
+    margin-top: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Styling the contact buttons container */
+footer .contact-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Aligns the buttons horizontally */
+    gap: 40px; /* Adds space between the buttons */
+}
+
+/* Styling each button with icon and label */
+footer .contact-buttons .button {
+    display: flex;
+    flex-direction: column; /* Stack the icon and label vertically */
+    align-items: center; /* Center the content */
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Default text color */
+    padding: 15px 25px;
+    font-size: 1.5em;
+    background-color: transparent; /* Transparent background */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+footer .contact-buttons .button i {
+    font-size: 1.5em; /* Larger icons */
+    color: rgb(0, 0, 0); /* Black color for icons */
+}
+
+footer .contact-buttons .icon-label {
+    margin-top: 8px;
+    font-size: 1em; /* Size of the label text */
+    color: rgb(0, 0, 0);
+}
+
+footer .contact-buttons .button:hover {
+    background-color: #7df98e; /* Green background on hover */
+    transform: scale(1.1); /* Slightly increase the size on hover */
+}
+
+footer .contact-buttons .button:active {
+    transform: scale(1); /* Reset to original size on click */
+}
